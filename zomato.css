@@ -1,0 +1,340 @@
+body {
+    padding: 0;
+    margin: 0;
+     overflow-x:hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow-y: scroll; */
+}
+
+header {
+    background-image: url("https://zomatocloneify.netlify.app/assets/BackGround-1P0swS4y.png");
+    height: 450px;
+    width: 100%;
+    color: white;
+    text-align: center;
+/* 1 rem =16px */
+
+
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+}
+
+/* .center-text {
+    margin-top: 80px;
+    text-align: center;
+} */
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 36px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+
+
+}
+
+.image {
+    height: 200px;
+    width: 300px;
+    /* border-radius: 20px; */
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    /* bordertop */
+
+}
+
+
+
+.service {
+    text-align: left;
+    border: 1px solid rgb(229, 228, 228);
+    border-radius: 20px;
+    transition: 0.1s ease-in all;
+     width: 300px;
+     cursor: pointer;
+}
+
+.service:hover {
+    scale: 1.02;
+}
+
+.service h4 {
+    font-size: 20px;
+    margin-left:  10px;
+    margin-bottom: 0;
+}
+
+.service p {
+    font-size: 16px;
+    color: rgb(159, 149, 149);
+    margin: 10PX;
+
+}
+
+.collection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+.collection-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.app-container{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(232, 216, 197, 0.1);
+    gap: 20px;
+    /* position: relative; */
+   
+   
+}
+
+.image1{
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+   
+    
+}
+
+.app-layout h3{
+font-weight: 700;
+}
+
+.app-layout p{
+    font-weight: 100;
+    color: gray;
+}
+
+.radio{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.app-text{
+   display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* margin: 20px 0; */
+    flex: 1;
+   
+   
+}
+
+.btn-app{
+    background-color:orangered ;
+    color: white;
+    height: 60px;
+    border-radius: 10px;
+    /* margin: 10px; */
+    border: none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+input[type="text"]{
+    height: 50px;
+    border-radius: 10px;
+    padding: 3px;
+    flex: 1;
+  min-width: 200px;
+
+   
+}
+
+.app-layout p{
+    color: gray;
+}
+
+.app-image{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.image2{
+height: 40px;
+}
+
+
+
+footer{
+    background-color:rgba(128, 128, 128,0.1);
+    padding-left: 50px;
+    
+  
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+     align-items: center;
+
+   
+    padding: 20px;
+}
+
+#select{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.select-container{
+     display: flex;
+flex-wrap: wrap;     
+    gap: 20px;
+    /* padding: 20px; */
+    /* margin-top: 20px; */
+    /* margin-right: 200px; */
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.details h4{
+    font-weight: 600;
+}
+
+.details p{
+    color: gray;
+}
+
+.image3{
+    height: 30px;
+    width: 30px;
+}
+
+.playstores{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.terms{
+    padding: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.img{
+    display: none;
+    height: 30px;
+    /* appearance: none; */
+    /* visibility:hidden; */
+}
+
+@media screen and (max-width: 768px){
+    
+
+    .img{
+    /* display:; */
+    /* visibility: visible; */
+    display: inline-block;
+   
+}
+.top-nav{
+     display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 20px 40px;
+}
+
+h1 {
+    font-size: 40px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+.app-container{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .radio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-container,.select-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.playstores img{
+    height: 40px;
+    width: 150px;
+}
+
+.list{
+ display: none;   
+}
+}
+
